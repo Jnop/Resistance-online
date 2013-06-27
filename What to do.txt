@@ -1,0 +1,53 @@
+1. User can create/host a game.								Start screen.
+2. 4-9 other users should be able to join that game			Start screen.
+3. Players taken to the game.								Game screen.
+4. Host asks players to confirm they are ready				Popup.
+5. Create the "round table" which will show all the players playing around it
+5. Players given random a player card.						Popup to notify + static in corner of game screen.
+		- 5 players	: 3good. 2bad
+		- 6 players : 4good. 2bad
+		- 7 players : 4good. 3bad
+		- 8 players : 5good. 3bad
+		- 9 players : 6good. 3bad
+		- 10 players: 6good. 4bad
+6. Round tracker is created. Detailing number of players needed per round. Stuck somewhere on screen.
+		- 5 players : 	2	3	2	3	3
+		- 6 players : 	2	3	4	3	4
+		- 7 players : 	2	3	3	4*	4			* 2 fail cards needed.
+		- 8 players : 	3	4	4	5*	5
+		- 9 players : 	3	4	4	5*	5
+		- 10 players:	3	4	4	5*	5
+7. "News" bar is created at top. Which will display events to all players. E.g. Leadership.
+8. "Mission" area is created. Which will display who has been selected for Mission. Will take the following format.
+				_________________
+				| 	Leader		|
+				|_______________|
+				|	Player 1	|				- Will grey out ones not in use
+				|	Player 2	|				
+				|	Player 3	|				
+				|	Player 4	|				
+				|	Player 5	|
+				|_______________|				
+9. Leadership is given out randomally. Popup to them to show. Which gives them more options.
+		- Ability to click on players to select them for mission.
+		- Ability to lock in players once they have all been selected.
+		- Should be shown in the "News feed".
+		- Should be highlighted on the "Round table".
+		- Ability to click on players on the mission to remove them from the mission.
+10. Once leader has locked in the players. Next stage is started. 
+		- Leader abilities locked so they cannot change the players on the mission.
+		- Players on the mission are confirmed in and this should be shown somehow.
+		- Players on the mission are highlighted around the round table somehow.
+		- Everyone is given an option to vote anonomously to Accept/Decline the participents.
+				- People who have locked in are marked on the "Round table"
+		- Once everyone has voted. Count votes:
+				- >50% are accepts : Procede to the mission stage.				- "News feed"
+				- >=50% are declines : Move the leadership clockwise once.		- "News feed"
+11. Mission stage starts. People on mission get some extra abilities
+		- They now get a mission option of how they want the mission to go. 
+		- Good people : Only mission success card available to them. Fail is greyed out.
+		- Bad people : Can choose success or fail.
+12. Once all cards are in. Count up totals of each. And check against the round rules.
+13. Mark accordingly on the round marker + show result in the news feed.
+14. Check round marker for a potential win. If not - Move it on one. And move the leader on once again.
+15. Repeat the game from 9-14 but with a selected leader.
