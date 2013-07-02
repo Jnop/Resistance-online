@@ -1,7 +1,3 @@
-NIGGERS
-NIGGERS
-NIGGERSNIGGERS
-
 1. User can create/host a game.								Start screen.
 2. 4-9 other users should be able to join that game			Start screen.
 3. Players taken to the game.								Game screen.
